@@ -1,0 +1,40 @@
+.sliderLayoutContainer--main-slider-desktop{
+    display        : flex;
+    justify-content: center;
+    position       : relative;
+    height         : 380px;
+    align-items    : start;
+}
+
+.sliderTrackContainer--main-slider-desktop{
+    max-width: 1092px;
+}
+
+.slide--main-slider-desktop {
+    width           : 324px !important;
+    max-height      : 340px;
+    border-radius   : 12px;
+    overflow        : hidden;
+    background-color: white;
+}
+
+@media screen and (max-width:480px) {
+    .slide--main-slider-desktop {
+        width     : 242px !important;
+        margin    : 8px !important;
+    }
+
+    .sliderLayoutContainer--main-slider-desktop {
+        height: 330px;
+    }
+}
+
+.sliderLeftArrow {
+    top : 30%;
+    left: 50px;
+}
+
+.sliderRightArrow {
+    top  : 30%;
+    right: 40px;
+}

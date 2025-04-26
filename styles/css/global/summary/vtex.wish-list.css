@@ -1,0 +1,27 @@
+.wishlistIconContainer--product-info__add-favorite {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+}
+
+
+.wishlistIconContainer--product-info__add-favorite :local(div) {
+    padding      : 0;
+    width        : 44px;
+    border       : 1px solid black;
+    height       : 32px;
+    border-radius: 4px;
+}
+
+.wishlistIconContainer--product-info__add-favorite :local(span) {
+    width : 16px;
+    height: 16px;
+}
+
+.wishlistIconContainer--product-info__add-favorite :local(button) {
+    border: 0;
+}
+
+.wishlistIconContainer--product-info__add-favorite :local(button):hover {
+    background: transparent;
+}

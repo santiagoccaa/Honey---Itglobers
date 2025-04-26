@@ -1,0 +1,35 @@
+.flexColChild--header__desktop__row1--mega-menu :global(.vtex-mega-menu-2-x-triggerContainer) {
+    background: black;
+}
+
+.flexRowContent--header__desktop__row1 {
+    align-items: center;
+}
+
+.flexRowContent--header__desktop__row1 :local(span[class="vtex-store-link-0-x-label"]) {
+    font-weight    : 500;
+    font-size      : 12px;
+    line-height    : 100%;
+    letter-spacing : 0px;
+    text-align     : right;
+    text-decoration: none;
+    color          : #1D2734;
+}
+
+.flexRowContent--header__desktop__row1 :local(span[class="vtex-store-link-0-x-label"]):hover {
+    text-decoration          : underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset    : 2px;
+}
+
+.flexRowContent--header__desktop__row1--links {
+    gap         : 13px;
+    padding-left: 58px;
+}
+
+@media screen and (max-width:1113px) {
+    .flexRowContent--header__desktop__row1--links {
+        gap         : 4px;
+        padding-left: 4px;
+    }
+}

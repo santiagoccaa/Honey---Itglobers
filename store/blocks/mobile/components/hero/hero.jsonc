@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#phone__hero": {
+        "children": [
+            "flex-layout.col#phone__hero--text",
+            "flex-layout.col#phone__hero--button"
+        ],
+        "props": {
+            "blockClass": "phone__hero",
+            "horizontalAlign":"between",
+            "colJustify":"between"
+        }
+    },
+    "flex-layout.col#phone__hero--image": {
+        "children": [
+            "flex-layout.col#desktop__hero--image-right"
+        ],
+        "props": {
+            "blockClass": "phone__hero--image"
+        }
+    },
+    "flex-layout.col#phone__hero--text": {
+        "children": [
+            "rich-text#center-text__content--title",
+            "rich-text#center-text__content--subtitle",
+            "rich-text#center-text__content--description"
+        ],
+        "props": {
+            "blockClass": "phone__hero--text",
+            "colSizing": "auto",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#phone__hero--button": {
+        "children": [
+            "link#center-text__content--button-buy"
+        ],
+        "props": {
+            "blockClass": "phone__hero--button",
+            "colSizing": "auto",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    }
+}

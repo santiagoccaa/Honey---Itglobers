@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#header__desktop__row1": {
+      "title": "Main Desktop Header Flex Row",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true,
+        "preserveLayoutOnMobile": true,
+        "blockClass": "header__desktop__row1"
+      },
+      "children": [
+        "responsive-layout.desktop#mega-menu",
+        "logo#header__desktop__row1--logo",
+        "search-bar#header__desktop__row1--search",
+        "responsive-layout.desktop#links",
+        "minicart.v2#header__desktop__row1--minicart",
+        "login#header__global__row1--button-login"
+      ]
+    },
+    "responsive-layout.desktop#links": {
+      "children": ["flex-layout.row#header__desktop__row1--links"]
+    },
+    "flex-layout.row#header__desktop__row1--links": {
+      "title": "Navigation Links Container Row",
+      "children": [
+        "link#header__desktop__row1--trends",
+        "link#header__desktop__row1--collection",
+        "link#header__desktop__row1--offers",
+        "link#header__desktop__row1--monday",
+        "link#header__desktop__row1--never-say-never"
+      ],
+      "props": {
+        "colSizing": "auto",
+        "horizontalAlign": "center",
+        "blockClass": "header__desktop__row1--links"
+      }
+    },
+    "link#header__desktop__row1--trends": {
+      "title": "Trends Navigation Link",
+      "props": {
+        "href": "/",
+        "label": "Tendencias de ItGlobers"
+      }
+    },
+    "link#header__desktop__row1--collection": {
+      "title": "Monthly Collection Navigation Link",
+      "props": {
+        "href": "/",
+        "label": "Colección del mes"
+      }
+    },
+    "link#header__desktop__row1--offers": {
+      "title": "January Offers Navigation Link",
+      "props": {
+        "href": "/",
+        "label": "Ofertas de enero"
+      }
+    },
+    "link#header__desktop__row1--monday": {
+      "title": "Cyber Monday Navigation Link",
+      "props": {
+        "href": "/",
+        "label": "Cyber Monday"
+      }
+    },
+    "link#header__desktop__row1--never-say-never": {
+      "title": "Never Say Never Navigation Link",
+      "props": {
+        "href": "/",
+        "label": "Never say never"
+      }
+    }
+  }
+  

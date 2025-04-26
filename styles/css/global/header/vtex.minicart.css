@@ -1,0 +1,21 @@
+.minicartContainer :local(button) {
+    border       : 1px solid transparent;
+    border-radius: 100%;
+}
+
+.minicartContainer :local(button):hover {
+    border    : 1px solid #1D2734;
+    background: transparent;
+}
+
+.openIconContainer {
+    padding-left : 30px;
+    padding-right: 16px;
+}
+
+@media screen and (max-width:550px) {
+    .openIconContainer {
+        padding-left : 2px;
+        padding-right: 2px;
+    }
+}

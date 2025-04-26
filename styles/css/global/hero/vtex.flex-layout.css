@@ -1,0 +1,10 @@
+.flexRowContent--desktop__hero {
+    max-width : 1280px;
+    max-height: 422px;
+    min-height: 400px;
+}
+
+.flexRow--hero__content__text {
+    display    : flex;
+    align-items: center;
+}

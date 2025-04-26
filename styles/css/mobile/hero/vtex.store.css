@@ -1,0 +1,5 @@
+@media screen and (min-width: 640px){
+    :local(div[class="vtex-render__container-id-phone__hero"]) {
+        display: none;
+    }
+}

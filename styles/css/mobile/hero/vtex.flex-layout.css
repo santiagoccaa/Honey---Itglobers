@@ -1,0 +1,11 @@
+.flexRowContent--phone__hero {
+    height          : 480px;
+    display         : flex;
+    justify-content : space-between;
+    flex-direction  : column;
+    padding-top     : 16px;
+    padding-bottom  : 26px;
+    background-image: url("assets/images/hero/hero-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}

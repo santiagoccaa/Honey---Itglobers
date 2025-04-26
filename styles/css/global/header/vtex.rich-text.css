@@ -1,0 +1,9 @@
+.paragraph--category-description {
+    color         : #1D2734;
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    margin        : 0;
+    margin-top    : 4px;
+}

@@ -1,0 +1,61 @@
+.logoContainer {
+    padding-right: 16px;
+    padding-left : 8px;
+}
+
+.autoCompleteOuterContainer {
+    max-width: 280px;
+    height   : 40px;
+}
+
+@media screen and (min-width:1110px) {
+    .autoCompleteOuterContainer{
+        width: 280px;
+    }
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+    height       : 40px;
+    background   : #F0F0F2;
+    border       : none;
+}
+
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    font-family   : "Lexend";
+}
+
+.autoCompleteOuterContainer :local(input),
+.autoCompleteOuterContainer :local(span) {
+    background: transparent;
+}
+
+@media screen and (max-width:550px) {
+    .autoCompleteOuterContainer :local(input) {
+        display: none;
+    }
+
+    .autoCompleteOuterContainer {
+        width   : 40px;
+        height  : 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .autoCompleteOuterContainer :local(div),
+    .autoCompleteOuterContainer :local(span),
+    .autoCompleteOuterContainer :local(button) {
+        padding: 0;
+    }
+
+    .searchBarIcon {
+        width   : 100%;
+        position: absolute;
+        top     : 14px;
+        left    : 14px;
+    }
+}

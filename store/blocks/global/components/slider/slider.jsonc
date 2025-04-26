@@ -1,0 +1,154 @@
+{
+    "flex-layout.row#global__slider": {
+        "title": "Desktop Slider Row",
+        "children": [
+            "flex-layout.col#global__slider__content"
+        ],
+        "props": {
+            "blockClass": "global__slider"
+        }
+    },
+    "flex-layout.col#global__slider__content": {
+        "title": "Desktop Slider Content Column",
+        "children": [
+            "rich-text#global__slider__content--title",
+            "slider-layout#global__slider__content--slider"
+        ],
+        "props": {
+            "blockClass": "global__slider__content"
+        }
+    },
+    "rich-text#global__slider__content--title": {
+        "title": "Slider Section Title",
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "global__slider__content--title"
+        }
+    },
+    "slider-layout#global__slider__content--slider": {
+        "title": "Main Product Slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "desktopOnly",
+            "blockClass": "main-slider-desktop",
+            "fullWidth": true,
+            "navigationStep": 1,
+            "arrowSize": 25,
+            "paginationDotsVisibility": "always",
+            "centerMode": "to-the-left"
+        },
+        "children": [
+            "flex-layout.row#slider__cart",
+            "flex-layout.row#slider__cart",
+            "flex-layout.row#slider__cart",
+            "flex-layout.row#slider__cart"
+        ]
+    },
+    "flex-layout.row#slider__cart": {
+        "title": "Slider Cart Row",
+        "props": {
+            "blockClass": "slider__cart",
+            "fullWidth": true,
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.col#slider__cart__content"
+        ]
+    },
+    "flex-layout.col#slider__cart__content": {
+        "title": "Slider Cart Content Column",
+        "children": [
+            "flex-layout.row#slider__cart__content--image",
+            "flex-layout.row#slider__cart__content--text_icon",
+            "link#slider__cart__content--button-shop"
+        ],
+        "props": {
+            "colJustify": "center",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#slider__cart__content--image": {
+        "title": "Slider Cart Image Row",
+        "children": [
+            "image#slider__cart__content--image"
+        ],
+        "props": {
+            "blockClass": "slider__cart__content--image"
+        }
+    },
+    "flex-layout.row#slider__cart__content--text_icon": {
+        "title": "Slider Cart Text and Icon Row",
+        "children": [
+            "flex-layout.col#text_icon__text",
+            "image#slider__cart__content--icon"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "marginTop": 4,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#text_icon__text": {
+        "title": "Slider Cart Text Column",
+        "children": [
+            "rich-text#text_icon__text--title",
+            "rich-text#text_icon__text--description"
+        ],
+        "props": {
+            "width": "80%"
+        }
+    },
+    "rich-text#text_icon__text--title": {
+        "title": "Text Icon Title",
+        "props": {
+            "text": "Heading",
+            "blockClass": "text_icon__text--title"
+        }
+    },
+    "rich-text#text_icon__text--description": {
+        "title": "Text Icon Description",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "blockClass": "text_icon__text--description"
+        }
+    },
+    "flex-layout.col#icon": {
+        "title": "Icon Column",
+        "children": [
+            "image#slider__cart__content--icon"
+        ]
+    },
+    "image#slider__cart__content--icon": {
+        "title": "Slider Cart Icon Image",
+        "props": {
+            "src": "assets/images/slider/artwork-trailing.svg",
+            "alt": "Banner 3 Desktop",
+            "maxHeight": 48,
+            "maxWidth": 48,
+            "blockClass": "slider__cart__content--icon"
+        }
+    },
+    "image#slider__cart__content--image": {
+        "title": "Slider Cart Main Image",
+        "props": {
+            "src": "assets/images/slider/crop.svg",
+            "alt": "Banner 1 Desktop",
+            "MinHeight": 186,
+            "maxWidth": "100%",
+            "blockClass": "slider__cart__content--imag"
+        }
+    },
+    "link#slider__cart__content--button-shop": {
+        "title": "Slider Cart Shop Button",
+        "props": {
+            "label": "Comprar",
+            "blockClass": "slider__cart__content--button-shop"
+        }
+    }
+}

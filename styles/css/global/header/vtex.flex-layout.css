@@ -1,0 +1,43 @@
+.flexRowContent--row2-global {
+    padding-left   : 16px;
+    overflow       : scroll;
+    overflow-y     : auto;
+    scrollbar-width: none;
+    width          : 100%;
+}
+
+.flexRowContent--header__mobile__row1 {
+    align-items: center;
+}
+
+.flexRow--row2-global {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.flexRowContent--row2-global {
+    max-width: 1280px;
+}
+
+.flexCol--global__category--content {
+    width        : 70px;
+    height       : 47px;
+    align-items  : center;
+    border-bottom: 3px solid transparent;
+    cursor       : pointer;
+    transition   : 0.3s ease;
+}
+
+.flexCol--global__category--content:hover {
+    border-bottom: 3px solid #1D2734;
+}
+
+.flexRow--header__desktop__row1 {
+    padding-top: 49px;
+}
+
+.flexRow--header__mobile__row1 {
+    padding-top: 11px;
+}
+

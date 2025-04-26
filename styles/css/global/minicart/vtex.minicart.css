@@ -1,0 +1,25 @@
+.drawer {
+    background: white;
+    max-width : 400px !important;
+}
+
+.minicartCheckoutButton--minicart-button-finish :local(button) {
+    background   : #1D2734;
+    color        : white;
+    border-radius: 40px;
+}
+
+.minicartCheckoutButton--minicart-button-finish :local(div) {
+    font-size: 0px;
+}
+
+.minicartCheckoutButton--minicart-button-finish :local(div)::after {
+    content: "Finalizar tu compra";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : white;
+    text-transform: capitalize;
+}

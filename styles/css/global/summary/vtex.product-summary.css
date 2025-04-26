@@ -1,0 +1,137 @@
+.element--global__summary__content--products-info {
+    height     : 378px;
+    padding-top: 44px;
+}
+
+.image--summary-list--image {
+    width : 178px;
+    height: 140px;
+}
+
+.description--summary-list--description {
+    text-align        : left;
+    overflow          : hidden;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-weight       : 400;
+    font-size         : 14px;
+}
+
+.listPriceLabel,
+.sellingPriceLabel,
+.installmentContainer {
+    display: none;
+}
+
+.price_sellingPriceContainer--summary-list--price {
+    font-weight   : 700;
+    font-size     : 24px;
+    line-height   : 28px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+    padding-top   : 0;
+    margin-top    : -4px;
+}
+
+.price_listPriceContainer--summary-list--price,
+.price_sellingPrice--summary-list--price {
+    padding: 0;
+}
+
+.price_listPrice--summary-list--price {
+    color          : #1D273466;
+    font-family    : "Lexend";
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 16px;
+    letter-spacing : 0px;
+    text-decoration: line-through;
+    padding-bottom : 0;
+}
+
+.price_sellingPriceContainer--summary-list--price::after {
+    content       : "Envío gratis";
+    display       : block;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    color         : #FA2080;
+}
+
+.priceContainer--summary-list--price {
+    align-items    : start;
+    text-align     : left;
+    justify-content: left;
+}
+
+.buyButtonContainer--summary-list--button {
+    padding : 0;
+    position: absolute;
+    bottom  : 0;
+}
+
+.buyButtonContainer--summary-list--button :local(button) {
+    background   : transparent;
+    border       : 1px solid #1D2734;
+    border-radius: 8px;
+    height       : 48px;
+}
+
+.buyButtonContainer--summary-list--button :local(button):hover {
+    background: rgb(255, 255, 124);
+}
+
+.buyButtonContainer--summary-list--button :local(span) {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 0;
+    position      : relative;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : #1D2734;
+    text-transform: capitalize;
+    display       : flex;
+    align-items   : center;
+    gap           : 7px;
+}
+
+.buyButtonContainer--summary-list--button :local(span)::after {
+    content  : "Comprar";
+    font-size: 14px;
+}
+
+.buyButtonContainer--summary-list--button :local(span)::before {
+    content         : "";
+    width           : 20px;
+    height          : 20px;
+    background-image: url("assets/images/summary/icons/add_shopping_cart.svg");
+    display         : flex;
+}
+
+.element--global__summary__content--products-info :global(.vtex-store-components-3-x-discountInsideContainer) {
+    background     : #1D2734;
+    width          : 84px;
+    height         : 32px;
+    padding        : 0;
+    position       : absolute;
+    top            : -40px;
+    left           : 0;
+    border-radius  : 8px;
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 20px;
+    letter-spacing : 0px;
+    vertical-align : middle;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : 4px;
+}
+
+.element--global__summary__content--products-info :global(.vtex-store-components-3-x-discountInsideContainer)::after {
+    content: "OFF";
+}

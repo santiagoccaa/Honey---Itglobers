@@ -1,0 +1,84 @@
+.productImage--global__image-minicart {
+    max-width : 145px;
+    max-height: 120px;
+}
+
+.productImageContainer--global__image-minicart {
+    margin-right: 7.56px;
+}
+
+.productName--minicart--product-name {
+    font-weight       : 300;
+    font-size         : 11.34px;
+    line-height       : 15.12px;
+    letter-spacing    : 0px;
+    width             : 141px;
+    display           : flex;
+    text-align        : left;
+    overflow          : hidden;
+    display           : -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.productPriceCurrency--minicart-price {
+    margin: 0;
+}
+
+.currencyContainer--minicart-price {
+    font-weight    : 400;
+    font-size      : 11.34px;
+    line-height    : 15.88px;
+    letter-spacing : 0px;
+    text-align     : right;
+    text-decoration: line-through;
+    margin         : 0;
+}
+
+.price--minicart-price {
+    font-weight   : 600;
+    font-size     : 15.12px;
+    line-height   : 18.15px;
+    letter-spacing: 0px;
+    text-align    : left;
+}
+
+.quantitySelectorDecrease {
+    width                    : 37px;
+    height                   : 43px;
+    border-top-left-radius   : 3.78px;
+    border-bottom-left-radius: 3.78px;
+    padding                  : 9;
+    background               : #1D2734;
+}
+
+.inputContainer {
+    max-width: 63px !important;
+    padding  : 0;
+    outline  : none;
+}
+
+.inputContainer :local(input) {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 13.23px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    max-width     : 63px;
+    outline       : none;
+}
+
+.quantitySelectorIncrease {
+    width                     : 37px;
+    height                    : 43px;
+    border-top-right-radius   : 3.78px;
+    border-bottom-right-radius: 3.78px;
+    padding                   : 9px;
+    background                : #1D2734;
+}
+
+.quantitySelectorDecrease :local(svg),
+.quantitySelectorIncrease :local(svg) {
+    color: white;
+}
