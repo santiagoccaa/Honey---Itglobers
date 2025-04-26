@@ -13,7 +13,7 @@
 
 .content {
     background     : transparent;
-    min-width      : 1092px;
+    width          : 1092px !important;
     position       : relative !important;
     top            : 0 !important;
     left           : 0 !important;
@@ -24,9 +24,25 @@
     box-shadow     : none !important;
 }
 
+@media screen and (max-width:550px) {
+    .content {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .contentForm {
+        background: red;
+        padding   : 0;
+        max-width : 100%;
+        width     : 370px;
+    }
+}
+
 .contentForm {
     background                : #F5F4F6;
     width                     : 423px;
+    max-width                 : 100%;
     display                   : flex;
     align-items               : center;
     justify-content           : center;
@@ -41,9 +57,9 @@
 .emailVerification,
 .codeConfirmation,
 .accountOptions {
-    position     : relative;
-    width        : 368px;
-    /* background: blue; */
+    position : relative;
+    width    : 368px;
+    max-width: 100%;
 }
 
 /* TItulos */
@@ -267,7 +283,8 @@
 }
 
 .emailForm,
-.codeConfirmation {
+.codeConfirmation,
+.emailVerification  {
     padding-bottom: 24px;
 }
 
@@ -299,8 +316,33 @@
     color         : #5E636E;
 }
 
-/* Account */
+.emailVerification :global(.vtex-login-2-x-formSubtitle) {
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 20px;
+    letter-spacing: 0%;
+    text-align    : center;
+    text-transform: lowercase;
+    margin-top    : 8px;
+    color         : #5E636E;
+}
 
+.emailVerification :global(.vtex-login-2-x-formTitle) {
+    font-size: 0;
+}
+
+.emailVerification :global(.vtex-login-2-x-formTitle)::before {
+    content       : "verify your e-mail";
+    font-weight   : 300;
+    font-size     : 20px;
+    line-height   : 114.99999999999999%;
+    letter-spacing: 0px;
+    text-align    : center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+/* Account */
 
 .account-button {
     width          : 368px;
@@ -359,8 +401,8 @@
 }
 
 .profile::after {
-    content  : "Account";
-    font-size: 12px;
-    color    : white;
+    content       : "Account";
+    font-size     : 12px;
+    color         : white;
     text-transform: capitalize;
 }
