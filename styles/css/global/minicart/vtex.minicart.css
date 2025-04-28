@@ -14,7 +14,7 @@
 }
 
 .minicartCheckoutButton--minicart-button-finish :local(div)::after {
-    content: "Finalizar tu compra";
+    content       : "Finalizar tu compra";
     font-weight   : 400;
     font-size     : 14px;
     line-height   : 100%;
@@ -22,4 +22,39 @@
     text-align    : center;
     color         : white;
     text-transform: capitalize;
+}
+
+.minicartTitle {
+    font-size: 0;
+    position : relative;
+}
+
+.minicartTitle::after {
+    content       : "Resumen de tu compra";
+    font-weight   : 600;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+}
+
+.closeIconContainer {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    padding-left   : 16px;
+    padding-right  : 16px;
+}
+
+.closeIconContainer::before {
+    content            : "";
+    background-image   : url("assets/images/icons/header/icon_black.svg");
+    width              : 50px;
+    height             : 25px;
+    background-repeat  : no-repeat;
+    background-position: center;
+}
+
+.closeIconContainer :local(svg) {
+    background   : #F5F4F6;
+    border-radius: 100%;
 }

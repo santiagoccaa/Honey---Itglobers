@@ -1,4 +1,4 @@
-.sliderLayoutContainer--main-slider-desktop{
+.sliderLayoutContainer--main-slider-desktop {
     display        : flex;
     justify-content: center;
     position       : relative;
@@ -6,7 +6,7 @@
     align-items    : start;
 }
 
-.sliderTrackContainer--main-slider-desktop{
+.sliderTrackContainer--main-slider-desktop {
     max-width: 1092px;
 }
 
@@ -20,8 +20,8 @@
 
 @media screen and (max-width:480px) {
     .slide--main-slider-desktop {
-        width     : 242px !important;
-        margin    : 8px !important;
+        width : 242px !important;
+        margin: 8px !important;
     }
 
     .sliderLayoutContainer--main-slider-desktop {
@@ -37,4 +37,15 @@
 .sliderRightArrow {
     top  : 30%;
     right: 40px;
+}
+
+.paginationDot {
+    max-height   : 2.5px;
+    min-width    : 25px;
+    padding      : 0;
+    border-radius: 0%;
+}
+
+.paginationDot--isActive {
+    background-color: #1D2734;
 }

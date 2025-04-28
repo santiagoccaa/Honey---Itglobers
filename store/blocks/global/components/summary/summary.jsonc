@@ -83,7 +83,7 @@
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
-                "mobile": 1
+                "mobile": 2
             },
             "infinite": false,
             "showNavigationArrows": "desktopOnly",
@@ -92,10 +92,7 @@
             "fullWidth": true,
             "navigationStep": 1,
             "arrowSize": 25,
-            "paginationDotsVisibility": "always",
-            "centerMode": {
-                "desktop":"to-the-left"
-            }
+            "paginationDotsVisibility": "always"
         }
     }
 }
