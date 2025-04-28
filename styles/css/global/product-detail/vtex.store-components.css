@@ -1,0 +1,177 @@
+.productBrand {
+    font-family   : 'Lexend';
+    color         : #1D2734;
+    font-size     : 16px;
+    font-weight   : 300;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.sellingPrice :global(.vtex-store-components-3-x-currencyContainer) {
+    font-family   : 'Lexend';
+    color         : #1D2734;
+    font-size     : 24px;
+    font-weight   : 600;
+    line-height   : 16px;
+    letter-spacing: 0px;
+}
+
+.shareLabel {
+    font-size  : 16px;
+    font-weight: 600;
+    font-family: "Lexend";
+    color      : #1D2734;
+}
+
+.specificationsTitle {
+    font-size  : 16px;
+    font-weight: 600;
+    font-family: "Lexend";
+    color      : #1D2734;
+}
+
+.sellingPrice :global(.vtex-store-components-3-x-currencyCode)::before {
+    content     : "NOW";
+    margin-right: 4px;
+}
+
+.listPriceValue {
+    font-family    : "Lexend";
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 16.8px;
+    letter-spacing : 0px;
+    text-decoration: line-through;
+    color          : rgba(29, 39, 52, 0.4);
+}
+
+.skuSelectorContainer {
+    display       : flex;
+    flex-direction: column-reverse;
+    margin-top    : 40px;
+}
+
+.skuSelectorSubcontainer--color {
+    margin: 0;
+}
+
+.skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorItem) {
+    min-width      : 64px;
+    min-height     : 64px;
+    background     : white;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+    min-width    : 40px;
+    min-height   : 40px;
+    border-radius: 100%;
+}
+
+.skuSelectorSubcontainer--talla {
+    margin       : 0;
+    margin-bottom: 16px;
+}
+
+.skuSelectorSubcontainer--talla :global(.vtex-store-components-3-x-skuSelectorItem) {
+    background   : white;
+    width        : 77px;
+    height       : 40px;
+    border-radius: 4px;
+    border       : 1px solid #E7E7E7;
+}
+
+.skuSelectorSubcontainer--talla :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
+    font-family   : "Lexend";
+    font-size     : 14px;
+    font-weight   : 300;
+    line-height   : 20px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.frameAround {
+    border-color: transparent;
+}
+
+.skuSelectorName {
+    font-size  : 16px;
+    font-weight: 600;
+    font-family: "Lexend";
+    color      : #1D2734;
+}
+
+.skuSelectorSelectorImageValue {
+    font-family   : "Lexend";
+    font-size     : 16px;
+    font-weight   : 300;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.shareSocialButton {
+    width : 40px;
+    height: 40px;
+}
+
+.shareSocialIcon {
+    width : 40px;
+    height: 40px;
+}
+
+.specificationsTableContainer {
+    margin-top: 40px;
+}
+
+.specificationsTable {
+    background-color: #E7E7E7;
+    border-radius   : 12px;
+}
+
+.specificationsTableHead {
+    display: none;
+}
+
+.sellingPriceLabel,
+.listPriceLabel {
+    display: none;
+}
+
+.carouselGaleryThumbs {
+    max-width : 92px;
+    max-height: 650px;
+}
+
+@media (max-width: 1023px) {
+    .carouselGaleryThumbs {
+        min-width : 100%;
+        max-height: 76px;
+    }
+
+    .carouselGaleryThumbs :local(div) {
+        max-height: 76px;
+    }
+
+    .carouselGaleryThumbs :global(.vtex-store-components-3-x-productImagesThumb) {
+        max-height  : 76px !important;
+        margin-right: 6px;
+        min-width  : 92px;
+    }
+}
+
+.figure {
+    max-height: 72px;
+    width     : 92px;
+}
+
+.figure :local(img) {
+    max-height: 72px;
+}
+
+.productImagesThumb {
+    margin-bottom: 6px;
+}
