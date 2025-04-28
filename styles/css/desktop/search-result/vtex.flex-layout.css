@@ -1,0 +1,13 @@
+.flexRowContent--category__result {
+    max-width : 1136px;
+}
+
+.flexRow--category__result {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexRow--result__filter--title--filter {
+    padding-right: 72px;
+    padding-left : 72px;
+}

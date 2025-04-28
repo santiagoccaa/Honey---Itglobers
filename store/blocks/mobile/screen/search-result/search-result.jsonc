@@ -17,7 +17,7 @@
     "flex-layout.col#mobile__result__filter": {
         "title": "Filters and Results Column - Mobile",
         "children": [
-            "breadcrumb.search",
+            "breadcrumb.search#desktop__result__filter--search",
             "search-title.v2",
             "flex-layout.row#mobile__filter_category",
             "search-content#mobile__result--content"
@@ -37,7 +37,7 @@
             },
             "preserveLayoutOnMobile": true,
             "preventHorizontalStretch": true,
-            "colGap":4
+            "colGap": 4
         }
     },
     "filter-navigator.v3#mobile--filter": {

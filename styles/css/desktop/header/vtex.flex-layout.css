@@ -1,7 +1,3 @@
-.flexColChild--header__desktop__row1--mega-menu :global(.vtex-mega-menu-2-x-triggerContainer) {
-    background: black;
-}
-
 .flexRowContent--header__desktop__row1 {
     align-items: center;
 }

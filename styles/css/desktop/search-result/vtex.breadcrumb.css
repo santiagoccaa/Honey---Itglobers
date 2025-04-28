@@ -1,0 +1,36 @@
+.link {
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.container :global(.vtex-breadcrumb-1-x-caretIcon) {
+    display: none;
+}
+
+.container :global(.vtex-breadcrumb-1-x-arrow--1)::before {
+    content  : "/";
+    font-size: 18px;
+}
+
+.container :global(.vtex-breadcrumb-1-x-arrow--2)::before {
+    content  : "/";
+    font-size: 18px;
+}
+
+.container :global(.vtex-breadcrumb-1-x-homeIcon) {
+    color: #FF8324;
+}
+
+.container {
+    padding-left: 72px;
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding-left: 0px;
+        padding-top : 16px;
+    }
+}

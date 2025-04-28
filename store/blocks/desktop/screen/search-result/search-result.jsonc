@@ -64,15 +64,18 @@
         "blocks": [
             "gallery",
             "not-found"
-        ]
+        ],
+        "props":{
+            "blockClass":"desktop__content"
+        }
     },
     "filter-navigator.v3#desktop": {
         "title": "Desktop Filter Navigator",
         "props": {
-            "width": "20%",
             "showFacetTitle": false,
             "truncateFilters": true,
-            "openFiltersMode": "one"
+            "openFiltersMode": "one",
+            "width":"15%"
         }
     }
 }
